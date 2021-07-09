@@ -1,0 +1,44 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "yarn copylib | expo start",
+    "android": "yarn copylib | expo start --android",
+    "ios": "yarn copylib | expo start --ios",
+    "web": "yarn copylib | expo start --web",
+    "eject": "expo eject",
+    "copylib": "cpx ../lib/src/**/* ./lib"
+  },
+  "dependencies": {
+    "@eva-design/eva": "^2.1.0",
+    "@react-navigation/native": "^6.0.0-next.15",
+    "@react-navigation/native-stack": "^6.0.0-next.9",
+    "@ui-kitten/components": "^5.1.0",
+    "@ui-kitten/eva-icons": "^5.1.0",
+    "expo": "~42.0.0",
+    "expo-localization": "~10.2.0",
+    "expo-status-bar": "~1.0.4",
+    "i18next": "^20.3.2",
+    "react": "16.13.1",
+    "react-addons-update": "^15.6.3",
+    "react-dom": "16.13.1",
+    "react-i18next": "^11.11.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-web": "~0.13.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@expo/webpack-config": "^0.12.81",
+    "@types/react": "~16.9.35",
+    "@types/react-addons-update": "^0.14.20",
+    "@types/react-native": "~0.63.2",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "cpx": "^1.5.0",
+    "typescript": "~4.0.0"
+  },
+  "private": true
+}

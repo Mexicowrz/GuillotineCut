@@ -1,0 +1,1 @@
+export { PanelFixedSize } from './PanelFixedSize';

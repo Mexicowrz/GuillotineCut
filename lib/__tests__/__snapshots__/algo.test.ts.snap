@@ -1,0 +1,334 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check CutterGuillotine algorithm Check fixed panels with test data 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "canRotate": true,
+      "height": 2000,
+      "width": 290,
+    },
+    Object {
+      "canRotate": true,
+      "height": 290,
+      "width": 370,
+    },
+  ],
+  "panels": Array [
+    Object {
+      "description": "test1",
+      "height": 2500,
+      "width": 1250,
+    },
+  ],
+  "unusedElements": Array [
+    Object {
+      "height": 2500,
+      "panel": Object {
+        "description": "test1",
+        "height": 2500,
+        "width": 1250,
+      },
+      "width": 960,
+      "x": 290,
+      "y": 0,
+    },
+    Object {
+      "height": 130,
+      "panel": Object {
+        "description": "test1",
+        "height": 2500,
+        "width": 1250,
+      },
+      "width": 290,
+      "x": 0,
+      "y": 2370,
+    },
+  ],
+  "usedElements": Array [
+    Object {
+      "isRotated": false,
+      "item": Object {
+        "canRotate": true,
+        "height": 2000,
+        "width": 290,
+      },
+      "panel": Object {
+        "description": "test1",
+        "height": 2500,
+        "width": 1250,
+      },
+      "x": 0,
+      "y": 0,
+    },
+    Object {
+      "isRotated": true,
+      "item": Object {
+        "canRotate": true,
+        "height": 290,
+        "width": 370,
+      },
+      "panel": Object {
+        "description": "test1",
+        "height": 2500,
+        "width": 1250,
+      },
+      "x": 0,
+      "y": 2000,
+    },
+  ],
+}
+`;
+
+exports[`Check CutterGuillotine algorithm Check infinity panels with test data 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "canRotate": true,
+      "height": 2000,
+      "width": 290,
+    },
+    Object {
+      "canRotate": true,
+      "height": 2000,
+      "width": 290,
+    },
+    Object {
+      "canRotate": true,
+      "height": 2000,
+      "width": 290,
+    },
+    Object {
+      "canRotate": true,
+      "height": 2000,
+      "width": 290,
+    },
+    Object {
+      "canRotate": true,
+      "height": 2000,
+      "width": 290,
+    },
+    Object {
+      "canRotate": true,
+      "height": 290,
+      "width": 370,
+    },
+    Object {
+      "canRotate": true,
+      "height": 290,
+      "width": 370,
+    },
+    Object {
+      "canRotate": true,
+      "height": 290,
+      "width": 370,
+    },
+  ],
+  "panels": Array [
+    Object {
+      "height": 1250,
+      "width": 2500,
+    },
+    Object {
+      "height": 1250,
+      "width": 2500,
+    },
+  ],
+  "unusedElements": Array [
+    Object {
+      "height": 290,
+      "panel": Object {
+        "height": 1250,
+        "width": 2500,
+      },
+      "width": 500,
+      "x": 2000,
+      "y": 0,
+    },
+    Object {
+      "height": 290,
+      "panel": Object {
+        "height": 1250,
+        "width": 2500,
+      },
+      "width": 500,
+      "x": 2000,
+      "y": 290,
+    },
+    Object {
+      "height": 290,
+      "panel": Object {
+        "height": 1250,
+        "width": 2500,
+      },
+      "width": 500,
+      "x": 2000,
+      "y": 580,
+    },
+    Object {
+      "height": 290,
+      "panel": Object {
+        "height": 1250,
+        "width": 2500,
+      },
+      "width": 500,
+      "x": 2000,
+      "y": 870,
+    },
+    Object {
+      "height": 90,
+      "panel": Object {
+        "height": 1250,
+        "width": 2500,
+      },
+      "width": 2500,
+      "x": 0,
+      "y": 1160,
+    },
+    Object {
+      "height": 290,
+      "panel": Object {
+        "height": 1250,
+        "width": 2500,
+      },
+      "width": 130,
+      "x": 2370,
+      "y": 0,
+    },
+    Object {
+      "height": 960,
+      "panel": Object {
+        "height": 1250,
+        "width": 2500,
+      },
+      "width": 2210,
+      "x": 290,
+      "y": 290,
+    },
+    Object {
+      "height": 220,
+      "panel": Object {
+        "height": 1250,
+        "width": 2500,
+      },
+      "width": 290,
+      "x": 0,
+      "y": 1030,
+    },
+  ],
+  "usedElements": Array [
+    Object {
+      "isRotated": true,
+      "item": Object {
+        "canRotate": true,
+        "height": 2000,
+        "width": 290,
+      },
+      "panel": Object {
+        "height": 1250,
+        "width": 2500,
+      },
+      "x": 0,
+      "y": 0,
+    },
+    Object {
+      "isRotated": true,
+      "item": Object {
+        "canRotate": true,
+        "height": 2000,
+        "width": 290,
+      },
+      "panel": Object {
+        "height": 1250,
+        "width": 2500,
+      },
+      "x": 0,
+      "y": 290,
+    },
+    Object {
+      "isRotated": true,
+      "item": Object {
+        "canRotate": true,
+        "height": 2000,
+        "width": 290,
+      },
+      "panel": Object {
+        "height": 1250,
+        "width": 2500,
+      },
+      "x": 0,
+      "y": 580,
+    },
+    Object {
+      "isRotated": true,
+      "item": Object {
+        "canRotate": true,
+        "height": 2000,
+        "width": 290,
+      },
+      "panel": Object {
+        "height": 1250,
+        "width": 2500,
+      },
+      "x": 0,
+      "y": 870,
+    },
+    Object {
+      "isRotated": true,
+      "item": Object {
+        "canRotate": true,
+        "height": 2000,
+        "width": 290,
+      },
+      "panel": Object {
+        "height": 1250,
+        "width": 2500,
+      },
+      "x": 0,
+      "y": 0,
+    },
+    Object {
+      "isRotated": false,
+      "item": Object {
+        "canRotate": true,
+        "height": 290,
+        "width": 370,
+      },
+      "panel": Object {
+        "height": 1250,
+        "width": 2500,
+      },
+      "x": 2000,
+      "y": 0,
+    },
+    Object {
+      "isRotated": true,
+      "item": Object {
+        "canRotate": true,
+        "height": 290,
+        "width": 370,
+      },
+      "panel": Object {
+        "height": 1250,
+        "width": 2500,
+      },
+      "x": 0,
+      "y": 290,
+    },
+    Object {
+      "isRotated": true,
+      "item": Object {
+        "canRotate": true,
+        "height": 290,
+        "width": 370,
+      },
+      "panel": Object {
+        "height": 1250,
+        "width": 2500,
+      },
+      "x": 0,
+      "y": 660,
+    },
+  ],
+}
+`;
